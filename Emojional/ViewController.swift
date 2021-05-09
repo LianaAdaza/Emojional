@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         let options = customMessages[emojis[selectedEmotion]!]!
         let emojiMessage = options[number]
 
-        let alertController = UIAlertController(title: "🚨 INCOMING MESSAGE 🚨", message: emojiMessage, preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "WORDS OF WISDOM 😋🥠", message: emojiMessage, preferredStyle: UIAlertController.Style.alert)
 
             alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
 
